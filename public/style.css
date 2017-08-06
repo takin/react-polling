@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:arial,tahoma;
+    font-size:1em;
+    background: url('https://firebasestorage.googleapis.com/v0/b/polling-c6656.appspot.com/o/bg.jpg?alt=media&token=f3b3fc79-9ba6-4a69-8efb-0378d06c49aa') right bottom fixed no-repeat;
+}
+#wrapper {
+    width: 100%;
+}
+#button-container {
+    width: 50%;
+    margin: 10% auto;
+    text-align: center;
+}
+#Bupati, #Gubernur {
+    padding: 10px;
+    font-size: 1em
+}
+#Bupati {
+    margin-right: 5px;
+}
+#total-voters {
+    margin-top: 10px;
+}
+#header {
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(255,255,255);
+    background: rgba(210,100,110,.8);
+    padding: 10px;
+    border-radius: 5px;
+}
+#item-img {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+#item-img img {
+    width: 100%;
+}
+
+table a {
+   text-decoration: none;
+   text-transform: uppercase;
+   padding: 5px 10px;
+   border-radius: 0 0 5px 5px;
+    display: block;
+   text-align: center;
+    background: rgba(255,255,255,.7);
+   color: rgb(120,15,150);
+    font-size: 0.8em;
+}
+
+a:hover {
+    transition: all 1.2s ease-out;
+    background: rgba(155,120,150, .8);
+}
+div.candidate-name {
+    padding: 5px 0px;
+    display: block;
+    background: rgba(245,245,145, .5);
+    text-transform: uppercase;
+    margin-bottom: 3px;
+    text-align: center;
+    font-size: 0.6em;
+    position: absolute;
+    bottom: 64px;
+    width: 100px;
+}
+
+#inner-container {
+    background: rgba(255,255,255,.5);
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    max-width: 100%;
+    text-align: center;
+    left: 40px;
+    right: 40px;
+    top: 150px;
+/*     bottom:23px; */
+    border: 1px solid #ccc;
+    z-index: 100;
+}
+
+#inner-container table {
+    margin: auto;
+}
+
+div.bar-chart {
+    text-align: center;
+    width: 100px;
+    font-size: .8em;
+    margin: 0px;
+    color: rgb(255,255,255);
+    background: linear-gradient(10deg, rgb(200,10,111), rgb(20,145,200) 150%);
+}
+.fade-enter {
+  opacity: 0.01;
+  transform: translateY(50px);
+}
+ 
+.fade-enter.fade-enter-active {
+  transition: opacity 250ms ease-in;
+  opacity: 1;
+}
+
+.fade-appear { opacity: 0.01; }
+.fade-appear.fade-appear-active { opacity: 1; transition: opacity 250ms ease-in; }
+ 
+.fade-leave {
+  opacity: 1;
+}
+ 
+.fade-leave.fade-leave-active {
+  opacity: 0.01;
+  transition: opacity 100ms ease-in;
+}
+.pilih-btn {
+    width: 250px;
+    margin: 150px auto;
+    text-align: center;
+}
+.pilih-btn button {
+    padding: 10px;
+    margin: 0px 5px;
+    border-radius:5px;
+    background: rgb(155,200,25);
+    color: rgb(255,255,255);
+    font-size: 1.1em;
+    border: none;
+    font-weight: bold;
+}
+.pilih-btn button:hover {
+    background: rgb(190,105,100);
+    transition: .6s all ease-in;
+}
+.loading {
+    width: 500px;
+    margin: 200px auto;
+    color: rgb(155,25,155);
+    background: rgba(255,255,255,.8);
+    text-align: center;
+    padding: 10px;
+}
