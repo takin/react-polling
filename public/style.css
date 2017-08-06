@@ -72,7 +72,8 @@ div.candidate-name {
 }
 
 #inner-container {
-    background: rgba(255,255,255,.5);
+    background: rgba(255,255,255,.85);
+    box-shadow: 0 0 20px rgb(50,50,150);
     padding: 10px;
     margin: 0 auto;
     position: absolute;
